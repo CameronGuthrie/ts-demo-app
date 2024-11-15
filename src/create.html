@@ -1,0 +1,65 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/index.css" />
+		<title>Add Bootcamp to catalogue</title>
+	</head>
+	<body>
+		<nav>
+			<h1>Create New Bootcamp</h1>
+			<a href="/" class="btn">Back to List</a>
+		</nav>
+
+		<main class="wrap">
+			<form class="create">
+		
+				<label for="title">
+					<span>Title:</span>
+					<input type="text" name="title" required />
+				</label>
+
+			
+				<label for="description">
+					<span>Description:</span>
+					<textarea name="description" required></textarea>
+				</label>
+
+			
+				<fieldset>
+					<legend>Choose Courses:</legend>
+					<label>
+						<input type="checkbox" name="courses" value="QAHTMLCSS" />
+						<span>HTML/CSS</span>
+					</label>
+					<label>
+						<input type="checkbox" name="courses" value="QAJSFUND" />
+						<span>JavaScript</span>
+					</label>
+					<label>
+						<input type="checkbox" name="courses" value="QAREACT" />
+						<span>React</span>
+					</label>
+					<label>
+						<input type="checkbox" name="courses" value="QAADVREA" />
+						<span>Advanced React</span>
+					</label>
+					<label>
+						<input type="checkbox" name="courses" value="QAANGULAR" />
+						<span>Angular</span>
+					</label>
+				</fieldset>
+
+				
+				<label for="price">
+					<span>Length:</span>
+					<input type="number" name="length" required />
+				</label>
+
+				<button>Create Bootcamp</button>
+			</form>
+		</main>
+
+		<script src="ts/create.ts" type="module"></script>
+	</body>
+</html>

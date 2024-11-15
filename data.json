@@ -1,0 +1,45 @@
+{
+  "bootcamps": [
+    {
+      "id": "ebf1",
+      "title": "Big Bank 3 - AdvRaect",
+      "description": "Advanced react course for experienced coders",
+      "courses": [
+        "QAADVREA"
+      ],
+      "length": 4
+    },
+    {
+      "id": "bf7b",
+      "title": "New Client 1",
+      "description": "Very big course",
+      "courses": [
+        "QAHTMLCSS",
+        "QAJSFUND",
+        "QAREACT",
+        "QAADVREA",
+        "QAANGULAR"
+      ],
+      "length": 46
+    },
+    {
+      "id": 23,
+      "title": "New Client 1",
+      "description": "qsafsad",
+      "courses": [
+        "QAJSFUND"
+      ],
+      "length": 3
+    },
+    {
+      "title": "dsfsfsf",
+      "description": "fsdfgdgvsdgdf",
+      "courses": [
+        "QAHTMLCSS",
+        "QAJSFUND"
+      ],
+      "length": 54,
+      "id": 861
+    }
+  ]
+}
